@@ -1,1 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: white;
+    color: #1e3a8a;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #60a5fa;
+}
+
+/* About */
+.about p {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Skills */
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.skill-grid span {
+    background: #1e293b;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.skill-grid span:hover {
+    background: #2563eb;
+}
+
+/* Projects */
+.projects {
+    background: #020617;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    background: #2563eb;
+}
+
+/* Experience */
+.experience ul {
+    list-style: none;
+    max-width: 500px;
+    margin: auto;
+}
+
+.experience li {
+    background: #1e293b;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
 
