@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sajjad Hosen Munna | Software Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/906/906343.png">
+<meta charset="UTF-8">
+<title>Sajjad Hosen Munna | Software Developer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/906/906343.png">
 </head>
 <body>
 
 <header>
-    <div class="container">
-        <h1>Sajjad Hosen Munna</h1>
-        <p>Software Developer | ASP.NET | ASP.NET CORE | SQL Server</p>
-        <div class="social-links">
+  <nav>
+    <h2 class="logo">Munna.dev</h2>
+    <button id="themeToggle">🌙</button>
+  </nav>
+
+  <div class="hero">
+    <img src="profile.jpg" alt="Profile">
+    <h1>Sajjad Hosen Munna</h1>
+    <p>Software Developer | ASP.NET Core | SQL Server</p>
+    <div class="social-links">
             <a href="https://github.com/munnasajjad" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/sajjad-hosen-munna-226133264/" target="_blank">LinkedIn</a>
             <a href="mailto:munnasajjad6488@gmail.com">Email</a>
-        </div>
     </div>
+    <div class="buttons">
+      <a href="cv.pdf" download class="btn">Download CV</a>
+      <a href="#contact" class="btn outline">Contact Me</a>
+    </div>
+  </div>
 </header>
 
-<section class="about">
-    <h2>About Me</h2>
-    <p>
-        I am a Software Developer with 4+ years of experience in building enterprise-level
-        applications using ASP.NET Core, Web API, and SQL Server. I have worked on HR & Payroll
-        systems and Inventory Management modules with a focus on clean architecture and performance.
-    </p>
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a Software Developer with 4+ years of experience in enterprise applications 
+    including HR & Payroll systems and Inventory modules. 
+    I specialize in ASP.NET Core, Web API, SQL Server and Clean Architecture.
+  </p>
 </section>
 
-<section class="skills">
-    <h2>Skills</h2>
-    <div class="skill-grid">
-        <span>ASP.NET Core</span>
-        <span>ASP.NET MVC</span>
-        <span>Web API</span>
-        <span>SQL Server</span>
-        <span>MySQL</span>
-        <span>Oracle</span>
-        <span>Vue.js</span>
-        <span>Angular</span>
-        <span>JavaScript</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Clean Architecture</span>
-    </div>
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <span>ASP.NET Core</span>
+    <span>ASP.NET MVC</span>
+    <span>Web API</span>
+    <span>SQL Server</span>
+    <span>MySQL</span>
+    <span>Oracle</span>
+    <span>Vue.js</span>
+    <span>Angular</span>
+    <span>JavaScript</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Clean Architecture</span>
+  </div>
 </section>
 
-<section class="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-        <h3>HR & Payroll System</h3>
-        <p>Developed modules for employee management, salary processing, attendance and reporting.</p>
-    </div>
-
-    <div class="project-card">
-        <h3>Inventory Management System</h3>
-        <p>Designed stock issue, purchase order, item categorization and reporting modules.</p>
-    </div>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>HR & Payroll System</h3>
+    <p>Employee management, attendance, salary processing and reports.</p>
+  </div>
+  <div class="card">
+    <h3>Inventory Management</h3>
+    <p>Stock issue, purchase orders, item categorization and reporting.</p>
+  </div>
 </section>
 
-<section class="experience">
-    <h2>Experience</h2>
-    <ul>
-        <li>✔ 4+ years in Software Development</li>
-        <li>✔ ERP Systems (HR, Payroll, Inventory)</li>
-        <li>✔ REST API Development</li>
-        <li>✔ Database-driven Applications</li>
-    </ul>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
 </section>
 
 <footer>
-    <p>© 2026 Sajjad Hosen Munna | All Rights Reserved</p>
+  <p>© 2026 Sajjad Hosen Munna</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
